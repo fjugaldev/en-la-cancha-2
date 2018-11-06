@@ -1,0 +1,7 @@
+doctrine_migrations:
+# by me   dir_name: '%kernel.project_dir%/src/Migrations'
+    dir_name: '%kernel.project_dir%/src/Infrastructure/Persistence/Doctrine/Migrations'
+    # namespace is arbitrary but should be different from App\Migrations
+    # as migrations classes should NOT be autoloaded
+# by me   namespace: DoctrineMigrations
+    namespace: App\Infrastructure\Persistence\Doctrine\Migrations
