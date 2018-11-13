@@ -27,12 +27,12 @@ services:
 #        resource: '../src/Controller'
 #        tags: ['controller.service_arguments']
 
-    App\Presentation\Web\Pub\Controller\:
-        resource: '../src/Presentation/Web/Pub/Controller'
+    App\Presentation\Web\Frontend\Controller\:
+        resource: '../src/Presentation/Web/Frontend/Controller'
         tags: ['controller.service_arguments']
 
-    App\Presentation\Web\Backoffice\Controller\:
-        resource: '../src/Presentation/Web/Backoffice/Controller'
+    App\Presentation\Web\Backend\Controller\:
+        resource: '../src/Presentation/Web/Backend/Controller'
         tags: ['controller.service_arguments']
 
     App\Presentation\Api\Rest\Controller\:

@@ -1,7 +1,7 @@
 twig:
 # by me   default_path: '%kernel.project_dir%/templates'
     paths:
-        '%kernel.project_dir%/src/Presentation/Web/Backoffice/Twig': BackOffice
-        '%kernel.project_dir%/src/Presentation/Web/Pub/Twig': Pub
+        '%kernel.project_dir%/src/Presentation/Web/Backend/Template': Backend
+        '%kernel.project_dir%/src/Presentation/Web/Frontend/Template': Frontend
     debug: '%kernel.debug%'
     strict_variables: '%kernel.debug%'

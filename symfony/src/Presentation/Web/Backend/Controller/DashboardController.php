@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Presentation\Web\Backoffice\Controller;
+namespace App\Presentation\Web\Backend\Controller;
 
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;

@@ -3,10 +3,10 @@
 # by me   type: annotation
 
 web_pub:
-    resource: ../../src/Presentation/Web/Pub/Controller/
+    resource: ../../src/Presentation/Web/Frontend/Controller/
     type: annotation
 web_backoffice:
-    resource: ../../src/Presentation/Web/Backoffice/Controller/
+    resource: ../../src/Presentation/Web/Backend/Controller/
     type: annotation
     prefix: /admin
 api_rest:

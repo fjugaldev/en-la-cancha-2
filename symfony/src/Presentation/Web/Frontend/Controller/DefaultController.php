@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Presentation\Web\Pub\Controller;
+namespace App\Presentation\Web\Frontend\Controller;
 
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -12,6 +12,6 @@ class DefaultController extends Controller
      */
     public function index()
     {
-        return $this->render('@Pub/app.html.twig');
+        return $this->render('@Frontend/app.html.twig');
     }
 }

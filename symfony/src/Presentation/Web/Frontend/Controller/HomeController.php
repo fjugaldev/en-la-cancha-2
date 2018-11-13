@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Presentation\Web\Pub\Controller;
+namespace App\Presentation\Web\Frontend\Controller;
 
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
